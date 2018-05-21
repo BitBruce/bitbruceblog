@@ -75,6 +75,13 @@ iframe {
   color: #fff;
 }
 
+.btn {
+  background-color: $primary;
+  &:hover, &:active, &:visited, &:link {
+    background-color: $light;
+  }
+}
+
 /* Override mdl */
 .mdl-color--green {
   background-color: $primary !important;
