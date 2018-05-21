@@ -17,7 +17,9 @@ $dark: #003300;
 /* Custom */
 body {
   background-color: black;
-  //background-image: url('/assets/bg1.jpeg');
+  background-image: url('/assets/bg10.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -58,6 +60,10 @@ iframe {
 }
 
 /* Override bootstrap */
+.bg-transparent {
+  border: 0;
+}
+
 .card {
   //color: #fff;
 }
