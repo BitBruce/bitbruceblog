@@ -17,6 +17,7 @@ $dark: #003300;
 /* Custom */
 body {
   background-color: black;
+  //background-image: url('/assets/bg1.jpeg');
 }
 
 a {
@@ -52,12 +53,18 @@ iframe {
   }
 }
 
-.card-body {
-  padding-top: 0;
-}
-
 .panel {
   margin: 8px 0;
+}
+
+/* Override bootstrap */
+.card {
+  //color: #fff;
+}
+
+.card-body {
+  padding-top: 0;
+  color: #fff;
 }
 
 /* Override mdl */
