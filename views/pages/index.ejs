@@ -5,7 +5,26 @@
   <% include ../partials/header.ejs %>
 </head>
 <body>
-  <h1>Hello World</h1>
+
+  <div class="container main">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="jumbotron text-center">
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+            Button
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <i class="fa fa-bold"></i>
+      </div>
+      <div class="col-sm-4">
+        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+          <i class="material-icons">add</i>
+        </button>
+      </div>
+    </div>
+  </div>
 
   <% include ../partials/footer.ejs %>
 </body>
