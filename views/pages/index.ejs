@@ -9,8 +9,7 @@
   <div class="container main"><!-- container or container-fluid -->
     <div class="row">
       <div class="col-md-4">
-        <div class="jumbotron text-center">
-
+        <div class="panel text-center">
           <div class="card">
             <div class="avi">
               <img src="/assets/bruce.jpg" alt="Avatar"> <!-- .card-img-top -->
@@ -22,12 +21,14 @@
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
                 <!-- Contact Chip -->
-                <span class="mdl-chip mdl-chip--contact">
-                  <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i class="fa fa-bold"></i></span>
-                  <span class="mdl-chip__text">BitBruce</span>
-              </span>
+                <a href="https://github.com/BitBruce/">
+                  <span class="mdl-chip mdl-chip--contact">
+                    <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i class="fab fa-github"></i></span>
+                    <span class="mdl-chip__text">BitBruce</span>
+                  </span>
+                </a>
               </li>
-              <li class="list-group-item"><a href="https://twitter.com/bitbruce_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false"">Follow @bitbruce_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+              <li class="list-group-item"><a href="https://twitter.com/bitbruce_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @bitbruce_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
             </ul>
             <!--<div class="card-body">-->
               <!--<a href="#" class="card-link">Card link</a>-->
@@ -43,7 +44,7 @@
         </div>
       </div>
       <div class="col-md-4 order-md-1">
-        <div class="jumbotron text-center">
+        <div class="panel text-center">
           <!--<button class="mdl-button mdl-js-button mdl-button&#45;&#45;fab mdl-button&#45;&#45;colored">-->
             <!--<i class="material-icons">add</i>-->
           <!--</button>-->
@@ -51,7 +52,7 @@
         </div>
       </div>
       <div class="col-md-4">
-        <div class="jumbotron text-center">
+        <div class="panel text-center">
           <!-- MDL Progress Bar with Indeterminate Progress -->
           <!--<div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>-->
           <a class="twitter-timeline" href="https://twitter.com/BitBruce_?ref_src=twsrc%5Etfw">Tweets by BitBruce_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -62,5 +63,6 @@
   </div>
 
   <% include ../partials/footer.ejs %>
+
 </body>
 </html>
