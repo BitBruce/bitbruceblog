@@ -38,7 +38,7 @@ iframe {
 }
 
 .avi {
-  margin-top: 2.5em;
+  margin-top: 1.2em;
 
   & img {
     display:block;
@@ -50,6 +50,10 @@ iframe {
     margin:auto;
     border:2px solid #fff;
   }
+}
+
+.card-body {
+  padding-top: 0;
 }
 
 .panel {
