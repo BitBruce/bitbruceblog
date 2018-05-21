@@ -14,5 +14,10 @@ left column profile, links
 
 * https://getmdl.io/started/index.html
 * https://getmdl.io/components/index.html
+* https://fontawesome.com/icons?d=gallery
+* http://htmlcheatsheet.com/css/
+* https://hackerthemes.com/bootstrap-cheatsheet/
+* https://stackoverflow.com/questions/37814508/column-ordering-in-bootstrap-4
+* https://beta.developer.spotify.com/documentation/widgets/generate/play-button/
 
 ## Design 2

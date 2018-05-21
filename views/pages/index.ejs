@@ -6,23 +6,58 @@
 </head>
 <body>
 
-  <div class="container main">
+  <div class="container main"><!-- container or container-fluid -->
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-md-4">
         <div class="jumbotron text-center">
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-            Button
-          </button>
+
+          <div class="card">
+            <div class="avi">
+              <img src="/assets/bruce.jpg" alt="Avatar"> <!-- .card-img-top -->
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bruce Robinson</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <!-- Contact Chip -->
+                <span class="mdl-chip mdl-chip--contact">
+                  <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i class="fa fa-bold"></i></span>
+                  <span class="mdl-chip__text">BitBruce</span>
+              </span>
+              </li>
+              <li class="list-group-item"><a href="https://twitter.com/bitbruce_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false"">Follow @bitbruce_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+            </ul>
+            <!--<div class="card-body">-->
+              <!--<a href="#" class="card-link">Card link</a>-->
+              <!--<a href="#" class="card-link">Another link</a>-->
+            <!--</div>-->
+          </div>
+          <!-- Social Links -->
+          <!--<div class="row">-->
+            <!--<div class="col-sm-4"></div>-->
+            <!--<div class="col-sm-4"></div>-->
+            <!--<div class="col-sm-4"></div>-->
+          <!--</div>-->
         </div>
       </div>
-      <div class="col-sm-4">
-        <i class="fa fa-bold"></i>
+      <div class="col-md-4 order-md-1">
+        <div class="jumbotron text-center">
+          <!--<button class="mdl-button mdl-js-button mdl-button&#45;&#45;fab mdl-button&#45;&#45;colored">-->
+            <!--<i class="material-icons">add</i>-->
+          <!--</button>-->
+          <iframe src="https://open.spotify.com/embed?uri=spotify:album:4Z4f0b1KAupm3VaeEWrZ9U" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </div>
       </div>
-      <div class="col-sm-4">
-        <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-          <i class="material-icons">add</i>
-        </button>
+      <div class="col-md-4">
+        <div class="jumbotron text-center">
+          <!-- MDL Progress Bar with Indeterminate Progress -->
+          <!--<div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>-->
+          <a class="twitter-timeline" href="https://twitter.com/BitBruce_?ref_src=twsrc%5Etfw">Tweets by BitBruce_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
       </div>
+
     </div>
   </div>
 

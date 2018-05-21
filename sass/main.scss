@@ -8,7 +8,31 @@
 // table { border-collapse: collapse; border-spacing: 0;}
 
 /* Custom */
-.main{
+.main {
   position:relative;
-  top:4em
+  top:4em;
+  min-width: 220px;
+}
+
+.avi {
+  margin-top: 2.5em;
+
+  & img {
+    display:block;
+    background:#006600;
+    border-radius:50%;
+    overflow:hidden;
+    width:100px;
+    height:100px;
+    margin:auto;
+    border:2px solid #fff;
+
+    //@media screen and (max-width: 200px) {
+    //  display: none;
+    //}
+  }
+}
+
+iframe {
+  margin: auto;
 }
