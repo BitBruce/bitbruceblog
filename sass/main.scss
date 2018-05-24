@@ -14,15 +14,28 @@ $primary: #1b5e20;
 $light: #4c8c4a;
 $dark: #003300;
 
+$white: whitesmoke;
+$black: #000;
+
 /* Custom */
 /*
   The best images so far: 10, 16,
  */
 body {
-  background-color: black;
-  background-image: url('/assets/bg10.jpeg');
-  background-position: center;
-  background-repeat: no-repeat;
+  //background-color: $black;
+  //background-image: url('/assets/bg16.jpeg');
+  //background-position: center;
+  //background-repeat: no-repeat;
+
+  // https://uigradients.com/#MoonlitAsteroid
+  //background: linear-gradient(to right, #1f4037, #4CA1AF); // Harvey
+  //background: linear-gradient(to right, #59C173, #a17fe0, #5D26C1);
+  //background: linear-gradient(to right, #000000, #0f9b0f); // Terminal
+  //background: linear-gradient(to right, #1D976C, #93F9B9);
+  background: linear-gradient(to right, #0F2027, #203A43, #2C5364); // Moonlit Asteroid
+  //background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+
+  color: $white;
 }
 
 a {
@@ -35,6 +48,14 @@ a {
 
 iframe {
   margin: auto;
+}
+
+ul.blog {
+  padding-left: 0;
+
+  & li {
+    list-style: none;
+  }
 }
 
 .main {
@@ -54,12 +75,27 @@ iframe {
     width:10em;
     height:10em;
     margin:auto;
-    border:2px solid #fff;
+    border:2px solid $white;
   }
 }
 
 .panel {
   margin: 8px 0;
+}
+
+#blogTabs > li > a {
+  background-color: transparent;
+  color: $primary;
+
+  &:hover {
+    color: $dark;
+    border-color: transparent;
+  }
+
+  &.active {
+    border-color: $light;
+    color: $light;
+  }
 }
 
 /* Override bootstrap */
@@ -68,11 +104,11 @@ iframe {
 }
 
 .card {
-  //color: #fff;
+  //color: $white;
 }
 
 .card-body {
-  color: #fff;
+  color: $white;
 }
 
 .btn {

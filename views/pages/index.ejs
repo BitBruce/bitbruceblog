@@ -1,84 +1,360 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- By BitBruce https://www.github.com/BitBruce -->
-  <% include ../partials/header.ejs %>
+    <!-- By BitBruce https://www.github.com/BitBruce -->
+    <% include ../partials/header.ejs %>
 </head>
 <body>
 
-  <div class="container main"><!-- container or container-fluid -->
+<div class="container main"><!-- container or container-fluid -->
     <div class="row">
-      <div class="col-md-4">
-        <div class="panel text-center">
-          <div class="card bg-transparent">
-            <div class="avi">
-              <img src="/assets/bruce.jpg" alt="Avatar">
+        <div class="col-md-4">
+            <div class="panel text-center">
+                <div class="card bg-transparent">
+                    <div class="avi">
+                        <img src="/assets/bruce.jpg" alt="Avatar">
+                    </div>
+                    <div class="card-body" style="padding-top: 0;">
+                        <h5 class="card-title">Bruce Robinson</h5>
+                        <p class="card-text">Welcome to my blog! I write about tech, my travels and my hobbies. Feel
+                            free to
+                            follow me on social media and catch me on Maplestory and Steam!</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent">
+                            <!-- Contact Chip -->
+                            <a href="https://github.com/BitBruce/">
+                                <span class="mdl-chip mdl-chip--contact">
+                                    <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i class="fab fa-github"></i></span>
+                                    <span class="mdl-chip__text">BitBruce</span>
+                                </span>
+                            </a>
+                        </li>
+                        <!--<li class="list-group-item"><a href="https://twitter.com/bitbruce_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @bitbruce_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>-->
+                    </ul>
+                    <div class="card-body">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <!--<div class="carousel-item active">-->
+                                <!--<a href="https://github.com/BitBruce/">-->
+                                <!--<span class="mdl-chip mdl-chip&#45;&#45;contact">-->
+                                <!--<span class="mdl-chip__contact mdl-color&#45;&#45;green mdl-color-text&#45;&#45;white"><i class="fab fa-github"></i></span>-->
+                                <!--<span class="mdl-chip__text">BitBruce</span>-->
+                                <!--</span>-->
+                                <!--</a>-->
+                                <!--</div>-->
+                                <div class="carousel-item active">
+                                    <a href="https://twitter.com/BitBruce_">
+                                      <span class="mdl-chip mdl-chip--contact">
+                                        <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i
+                                                    class="fab fa-twitter"></i></span>
+                                        <span class="mdl-chip__text">BitBruce_</span>
+                                      </span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="https://soundcloud.com/BitBruce/">
+                                      <span class="mdl-chip mdl-chip--contact">
+                                        <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i
+                                                    class="fab fa-soundcloud"></i></span>
+                                        <span class="mdl-chip__text">BitBruce</span>
+                                      </span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="https://instagram.com/BitBruce/">
+                                      <span class="mdl-chip mdl-chip--contact">
+                                        <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i
+                                                    class="fab fa-instagram"></i></span>
+                                        <span class="mdl-chip__text">BitBruce</span>
+                                      </span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="https://reddit.com/u/BitBruce/">
+                                      <span class="mdl-chip mdl-chip--contact">
+                                        <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i
+                                                    class="fab fa-reddit"></i></span>
+                                        <span class="mdl-chip__text">BitBruce</span>
+                                      </span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#">
+                                      <span class="mdl-chip mdl-chip--contact">
+                                        <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i
+                                                    class="fab fa-slack"></i></span>
+                                        <span class="mdl-chip__text">BitBruce Channel</span>
+                                      </span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#">
+                                      <span class="mdl-chip mdl-chip--contact">
+                                        <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i
+                                                    class="fab fa-steam"></i></span>
+                                        <span class="mdl-chip__text">BitBruce</span>
+                                      </span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="https://twitch.tv/BitBruce/">
+                                      <span class="mdl-chip mdl-chip--contact">
+                                        <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i
+                                                    class="fab fa-twitch"></i></span>
+                                        <span class="mdl-chip__text">BitBruce</span>
+                                      </span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#">
+                                      <span class="mdl-chip mdl-chip--contact">
+                                        <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i
+                                                    class="fab fa-trello"></i></span>
+                                        <span class="mdl-chip__text">Current Projects Board</span>
+                                      </span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="https://stackoverflow.com/BitBruce/">
+                                      <span class="mdl-chip mdl-chip--contact">
+                                        <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i
+                                                    class="fab fa-stack-overflow"></i></span>
+                                        <span class="mdl-chip__text">BitBruce</span>
+                                      </span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="https://bitbruce.tumblr.com/">
+                                      <span class="mdl-chip mdl-chip--contact">
+                                        <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i
+                                                    class="fab fa-tumblr"></i></span>
+                                        <span class="mdl-chip__text">BitBruce</span>
+                                      </span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="#">
+                                      <span class="mdl-chip mdl-chip--contact">
+                                        <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i
+                                                    class="fab fa-nintendo-switch"></i></span>
+                                        <span class="mdl-chip__text">Lavitz</span>
+                                      </span>
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="https://www.youtube.com/user/BitBruce">
+                                      <span class="mdl-chip mdl-chip--contact">
+                                        <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i
+                                                    class="fab fa-youtube"></i></span>
+                                        <span class="mdl-chip__text">BitBruce</span>
+                                      </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                               data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                               data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!--<div class="btn-group" role="group" aria-label="Basic example">-->
+                        <!--<button type="button" class="btn btn-secondary"><i class="fab fa-github"></i>Left</button>-->
+                        <!--<button type="button" class="btn btn-secondary"><i class="fab fa-github"></i>Middle</button>-->
+                        <!--<button type="button" class="btn btn-secondary"><i class="fab fa-github"></i>Right</button>-->
+                        <!--</div>-->
+                    </div>
+                </div>
+                <!--<div class="card">-->
+                <!--<div class="card-header">-->
+                <!--Current Projects-->
+                <!--</div>-->
+                <!--<ul class="list-group list-group-flush">-->
+                <!--<li class="list-group-item">Cras justo odio</li>-->
+                <!--<li class="list-group-item">Dapibus ac facilisis in</li>-->
+                <!--<li class="list-group-item">Vestibulum at eros</li>-->
+                <!--</ul>-->
+                <!--</div>-->
             </div>
-            <div class="card-body" style="padding-top: 0;">
-              <h5 class="card-title">Bruce Robinson</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item bg-transparent">
-                <!-- Contact Chip -->
-                <a href="https://github.com/BitBruce/">
-                  <span class="mdl-chip mdl-chip--contact">
-                    <span class="mdl-chip__contact mdl-color--green mdl-color-text--white"><i class="fab fa-github"></i></span>
-                    <span class="mdl-chip__text">BitBruce</span>
-                  </span>
-                </a>
-              </li>
-              <!--<li class="list-group-item"><a href="https://twitter.com/bitbruce_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @bitbruce_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>-->
+        </div>
+        <div class="col-md-8">
+            <ul class="nav nav-tabs nav-justified" id="blogTabs" style="background: none; border: none;">
+                <li class="nav-item">
+                    <a class="nav-link active" id="tech-tab" data-toggle="tab" href="#blog-tech" role="tab" aria-controls="tech" aria-selected="true">Tech</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="hobby-tab" data-toggle="tab" href="#blog-hobby" role="tab" aria-controls="hobby" aria-selected="true">Hobby</a>
+                </li>
+                <li class="nav-item disabled">
+                    <a class="nav-link" id="travel-tab" data-toggle="tab" href="#blog-travel" role="tab" aria-controls="travel" aria-selected="true">Travel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="all-tab" data-toggle="tab" href="#blog-all" role="tab" aria-controls="all" aria-selected="true">All</a>
+                </li>
             </ul>
-            <!--<div class="card-body">-->
-              <!--<div class="btn-group" role="group" aria-label="Basic example">-->
-                <!--<button type="button" class="btn btn-secondary"><i class="fab fa-github"></i>Left</button>-->
-                <!--<button type="button" class="btn btn-secondary"><i class="fab fa-github"></i>Middle</button>-->
-                <!--<button type="button" class="btn btn-secondary"><i class="fab fa-github"></i>Right</button>-->
-              <!--</div>-->
-            <!--</div>-->
-          </div>
-          <!--<div class="card">-->
-            <!--<div class="card-header">-->
-              <!--Current Projects-->
-            <!--</div>-->
-            <!--<ul class="list-group list-group-flush">-->
-              <!--<li class="list-group-item">Cras justo odio</li>-->
-              <!--<li class="list-group-item">Dapibus ac facilisis in</li>-->
-              <!--<li class="list-group-item">Vestibulum at eros</li>-->
-            <!--</ul>-->
-          <!--</div>-->
-        </div>
-      </div>
-      <div class="col-md-4 order-md-1">
-        <div class="panel text-center">
-          <!--<button class="btn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Hide Music</button>-->
-
-          <div class="collapse show" id="collapseExample">
-            <iframe src="https://open.spotify.com/embed?uri=spotify:album:4Z4f0b1KAupm3VaeEWrZ9U" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-          </div>
-          <div class="card bg-transparent">
-            <div class="card-body">
-              <blockquote>You are free to sever the chains of fate that bind you.</blockquote>
-              <cite title="Source Title">The Legend of Dragoon</cite>
+            <div class="tab-content" id="blogCategories">
+                <div class="tab-pane show active" id="blog-tech" role="tabpanel" aria-labelledby="blog-category-tech">
+                    <!--<button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".post" aria-expanded="false" aria-controls="post">Show all</button>-->
+                    <ul class="blog">
+                        <li class="post">
+                            <i class="fa fa-chevron-down fa-pull-right" style="font-size: xx-large"></i>
+                            <h1 style="display: inline-block;"><a href="#">Tech</a></h1>
+                            <p>Occaecat veniam dolore mollit laboris aliquip ullamco ex magna proident dolor cupidatat velit adipisicing irure. Laborum voluptate nisi quis amet cupidatat elit duis dolor nostrud ipsum exercitation ea qui et. Irure consequat velit duis sunt occaecat ea culpa excepteur. Pariatur officia ut nulla occaecat dolor minim. Eiusmod irure anim consequat commodo dolore magna veniam occaecat. Aliquip sit dolor enim tempor dolore commodo sit in magna. Dolor mollit et tempor nulla Lorem. Labore tempor commodo cupidatat nostrud nostrud proident. Laboris ex amet occaecat sint fugiat aute. Duis laborum deserunt minim incididunt proident. Proident labore aute sunt qui laboris cillum sit adipisicing. Proident officia fugiat consequat eiusmod pariatur eu. Aute amet ut ex culpa qui quis esse nulla et consequat excepteur consequat excepteur anim. Magna anim officia do aliqua aute exercitation nulla. Est aute fugiat commodo cillum. Laborum dolore laboris tempor amet exercitation labore qui et esse officia. Commodo ex sint consectetur eiusmod deserunt incididunt aliqua nostrud deserunt nostrud. Labore reprehenderit exercitation magna ipsum sint officia irure quis amet ullamco mollit duis. Ea adipisicing anim non ut. Excepteur mollit adipisicing amet est irure sit non consectetur ipsum nulla ipsum deserunt. Exercitation tempor exercitation magna do cillum id. Ut dolore laboris aute mollit Lorem labore est aliquip. Occaecat ea labore irure magna elit duis enim. Sint cupidatat excepteur tempor proident. Consectetur culpa ex reprehenderit elit officia anim adipisicing ea ad velit dolore amet sint. Ut cillum cillum excepteur sint labore labore dolore cillum excepteur occaecat. Eiusmod aliqua nulla minim culpa in anim eu nisi do ex. Occaecat magna ea occaecat dolore do excepteur amet fugiat voluptate ad. Pariatur id mollit id ipsum pariatur veniam qui voluptate irure officia. Occaecat sint amet magna culpa reprehenderit ea. Elit proident id velit Lorem dolore ullamco consectetur cillum. Lorem officia tempor esse mollit. Deserunt enim aute enim quis. Culpa et veniam minim adipisicing irure tempor. Nulla do pariatur consequat sit deserunt laboris ipsum excepteur qui adipisicing deserunt. Veniam non aute irure ullamco in ad nostrud est reprehenderit consequat fugiat commodo. Nulla veniam esse commodo tempor occaecat officia exercitation id irure non deserunt exercitation officia. Ad est voluptate non mollit amet exercitation velit minim sint. Veniam ad eu amet dolor cillum consectetur id consequat minim occaecat duis laborum eiusmod veniam. Pariatur in dolor duis ad excepteur. Nostrud dolor occaecat cillum aliquip eu. Labore dolore amet id et. Magna amet irure exercitation elit. Non commodo cupidatat ipsum quis id. Consectetur est elit adipisicing dolor. Consequat eiusmod pariatur dolore dolor anim esse irure quis commodo. Eiusmod in et proident ullamco. Duis exercitation deserunt laborum quis occaecat laborum eu eu. Dolor nulla nostrud irure cillum qui ad velit occaecat velit in amet irure incididunt mollit. Esse magna irure voluptate sint quis qui dolore amet cillum qui commodo dolore.</p>
+                            <p></p>
+                            <p></p>
+                            <div></div>
+                        </li>
+                        <li>
+                            <div class="post">
+                                <h1><a href="#">A title</a></h1>
+                                <p>Occaecat veniam dolore mollit laboris aliquip ullamco ex magna proident dolor cupidatat velit adipisicing irure. Laborum voluptate nisi quis amet cupidatat elit duis dolor nostrud ipsum exercitation ea qui et. Irure consequat velit duis sunt occaecat ea culpa excepteur. Pariatur officia ut nulla occaecat dolor minim. Eiusmod irure anim consequat commodo dolore magna veniam occaecat. Aliquip sit dolor enim tempor dolore commodo sit in magna. Dolor mollit et tempor nulla Lorem. Labore tempor commodo cupidatat nostrud nostrud proident. Laboris ex amet occaecat sint fugiat aute. Duis laborum deserunt minim incididunt proident. Proident labore aute sunt qui laboris cillum sit adipisicing. Proident officia fugiat consequat eiusmod pariatur eu. Aute amet ut ex culpa qui quis esse nulla et consequat excepteur consequat excepteur anim. Magna anim officia do aliqua aute exercitation nulla. Est aute fugiat commodo cillum. Laborum dolore laboris tempor amet exercitation labore qui et esse officia. Commodo ex sint consectetur eiusmod deserunt incididunt aliqua nostrud deserunt nostrud. Labore reprehenderit exercitation magna ipsum sint officia irure quis amet ullamco mollit duis. Ea adipisicing anim non ut. Excepteur mollit adipisicing amet est irure sit non consectetur ipsum nulla ipsum deserunt. Exercitation tempor exercitation magna do cillum id. Ut dolore laboris aute mollit Lorem labore est aliquip. Occaecat ea labore irure magna elit duis enim. Sint cupidatat excepteur tempor proident. Consectetur culpa ex reprehenderit elit officia anim adipisicing ea ad velit dolore amet sint. Ut cillum cillum excepteur sint labore labore dolore cillum excepteur occaecat. Eiusmod aliqua nulla minim culpa in anim eu nisi do ex. Occaecat magna ea occaecat dolore do excepteur amet fugiat voluptate ad. Pariatur id mollit id ipsum pariatur veniam qui voluptate irure officia. Occaecat sint amet magna culpa reprehenderit ea. Elit proident id velit Lorem dolore ullamco consectetur cillum. Lorem officia tempor esse mollit. Deserunt enim aute enim quis. Culpa et veniam minim adipisicing irure tempor. Nulla do pariatur consequat sit deserunt laboris ipsum excepteur qui adipisicing deserunt. Veniam non aute irure ullamco in ad nostrud est reprehenderit consequat fugiat commodo. Nulla veniam esse commodo tempor occaecat officia exercitation id irure non deserunt exercitation officia. Ad est voluptate non mollit amet exercitation velit minim sint. Veniam ad eu amet dolor cillum consectetur id consequat minim occaecat duis laborum eiusmod veniam. Pariatur in dolor duis ad excepteur. Nostrud dolor occaecat cillum aliquip eu. Labore dolore amet id et. Magna amet irure exercitation elit. Non commodo cupidatat ipsum quis id. Consectetur est elit adipisicing dolor. Consequat eiusmod pariatur dolore dolor anim esse irure quis commodo. Eiusmod in et proident ullamco. Duis exercitation deserunt laborum quis occaecat laborum eu eu. Dolor nulla nostrud irure cillum qui ad velit occaecat velit in amet irure incididunt mollit. Esse magna irure voluptate sint quis qui dolore amet cillum qui commodo dolore.</p>
+                                <p></p>
+                                <p></p>
+                                <div></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post">
+                                <h1><a href="#">A title</a></h1>
+                                <p>Occaecat veniam dolore mollit laboris aliquip ullamco ex magna proident dolor cupidatat velit adipisicing irure. Laborum voluptate nisi quis amet cupidatat elit duis dolor nostrud ipsum exercitation ea qui et. Irure consequat velit duis sunt occaecat ea culpa excepteur. Pariatur officia ut nulla occaecat dolor minim. Eiusmod irure anim consequat commodo dolore magna veniam occaecat. Aliquip sit dolor enim tempor dolore commodo sit in magna. Dolor mollit et tempor nulla Lorem. Labore tempor commodo cupidatat nostrud nostrud proident. Laboris ex amet occaecat sint fugiat aute. Duis laborum deserunt minim incididunt proident. Proident labore aute sunt qui laboris cillum sit adipisicing. Proident officia fugiat consequat eiusmod pariatur eu. Aute amet ut ex culpa qui quis esse nulla et consequat excepteur consequat excepteur anim. Magna anim officia do aliqua aute exercitation nulla. Est aute fugiat commodo cillum. Laborum dolore laboris tempor amet exercitation labore qui et esse officia. Commodo ex sint consectetur eiusmod deserunt incididunt aliqua nostrud deserunt nostrud. Labore reprehenderit exercitation magna ipsum sint officia irure quis amet ullamco mollit duis. Ea adipisicing anim non ut. Excepteur mollit adipisicing amet est irure sit non consectetur ipsum nulla ipsum deserunt. Exercitation tempor exercitation magna do cillum id. Ut dolore laboris aute mollit Lorem labore est aliquip. Occaecat ea labore irure magna elit duis enim. Sint cupidatat excepteur tempor proident. Consectetur culpa ex reprehenderit elit officia anim adipisicing ea ad velit dolore amet sint. Ut cillum cillum excepteur sint labore labore dolore cillum excepteur occaecat. Eiusmod aliqua nulla minim culpa in anim eu nisi do ex. Occaecat magna ea occaecat dolore do excepteur amet fugiat voluptate ad. Pariatur id mollit id ipsum pariatur veniam qui voluptate irure officia. Occaecat sint amet magna culpa reprehenderit ea. Elit proident id velit Lorem dolore ullamco consectetur cillum. Lorem officia tempor esse mollit. Deserunt enim aute enim quis. Culpa et veniam minim adipisicing irure tempor. Nulla do pariatur consequat sit deserunt laboris ipsum excepteur qui adipisicing deserunt. Veniam non aute irure ullamco in ad nostrud est reprehenderit consequat fugiat commodo. Nulla veniam esse commodo tempor occaecat officia exercitation id irure non deserunt exercitation officia. Ad est voluptate non mollit amet exercitation velit minim sint. Veniam ad eu amet dolor cillum consectetur id consequat minim occaecat duis laborum eiusmod veniam. Pariatur in dolor duis ad excepteur. Nostrud dolor occaecat cillum aliquip eu. Labore dolore amet id et. Magna amet irure exercitation elit. Non commodo cupidatat ipsum quis id. Consectetur est elit adipisicing dolor. Consequat eiusmod pariatur dolore dolor anim esse irure quis commodo. Eiusmod in et proident ullamco. Duis exercitation deserunt laborum quis occaecat laborum eu eu. Dolor nulla nostrud irure cillum qui ad velit occaecat velit in amet irure incididunt mollit. Esse magna irure voluptate sint quis qui dolore amet cillum qui commodo dolore.</p>
+                                <p></p>
+                                <p></p>
+                                <div></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="blog-hobby" role="tabpanel" aria-labelledby="blog-category-hobby">
+                    <ul class="blog">
+                        <li class="post">
+                            <h1><a href="#">Hobby</a></h1>
+                            <p>Occaecat veniam dolore mollit laboris aliquip ullamco ex magna proident dolor cupidatat velit adipisicing irure. Laborum voluptate nisi quis amet cupidatat elit duis dolor nostrud ipsum exercitation ea qui et. Irure consequat velit duis sunt occaecat ea culpa excepteur. Pariatur officia ut nulla occaecat dolor minim. Eiusmod irure anim consequat commodo dolore magna veniam occaecat. Aliquip sit dolor enim tempor dolore commodo sit in magna. Dolor mollit et tempor nulla Lorem. Labore tempor commodo cupidatat nostrud nostrud proident. Laboris ex amet occaecat sint fugiat aute. Duis laborum deserunt minim incididunt proident. Proident labore aute sunt qui laboris cillum sit adipisicing. Proident officia fugiat consequat eiusmod pariatur eu. Aute amet ut ex culpa qui quis esse nulla et consequat excepteur consequat excepteur anim. Magna anim officia do aliqua aute exercitation nulla. Est aute fugiat commodo cillum. Laborum dolore laboris tempor amet exercitation labore qui et esse officia. Commodo ex sint consectetur eiusmod deserunt incididunt aliqua nostrud deserunt nostrud. Labore reprehenderit exercitation magna ipsum sint officia irure quis amet ullamco mollit duis. Ea adipisicing anim non ut. Excepteur mollit adipisicing amet est irure sit non consectetur ipsum nulla ipsum deserunt. Exercitation tempor exercitation magna do cillum id. Ut dolore laboris aute mollit Lorem labore est aliquip. Occaecat ea labore irure magna elit duis enim. Sint cupidatat excepteur tempor proident. Consectetur culpa ex reprehenderit elit officia anim adipisicing ea ad velit dolore amet sint. Ut cillum cillum excepteur sint labore labore dolore cillum excepteur occaecat. Eiusmod aliqua nulla minim culpa in anim eu nisi do ex. Occaecat magna ea occaecat dolore do excepteur amet fugiat voluptate ad. Pariatur id mollit id ipsum pariatur veniam qui voluptate irure officia. Occaecat sint amet magna culpa reprehenderit ea. Elit proident id velit Lorem dolore ullamco consectetur cillum. Lorem officia tempor esse mollit. Deserunt enim aute enim quis. Culpa et veniam minim adipisicing irure tempor. Nulla do pariatur consequat sit deserunt laboris ipsum excepteur qui adipisicing deserunt. Veniam non aute irure ullamco in ad nostrud est reprehenderit consequat fugiat commodo. Nulla veniam esse commodo tempor occaecat officia exercitation id irure non deserunt exercitation officia. Ad est voluptate non mollit amet exercitation velit minim sint. Veniam ad eu amet dolor cillum consectetur id consequat minim occaecat duis laborum eiusmod veniam. Pariatur in dolor duis ad excepteur. Nostrud dolor occaecat cillum aliquip eu. Labore dolore amet id et. Magna amet irure exercitation elit. Non commodo cupidatat ipsum quis id. Consectetur est elit adipisicing dolor. Consequat eiusmod pariatur dolore dolor anim esse irure quis commodo. Eiusmod in et proident ullamco. Duis exercitation deserunt laborum quis occaecat laborum eu eu. Dolor nulla nostrud irure cillum qui ad velit occaecat velit in amet irure incididunt mollit. Esse magna irure voluptate sint quis qui dolore amet cillum qui commodo dolore.</p>
+                            <p></p>
+                            <p></p>
+                            <div></div>
+                        </li>
+                        <li>
+                            <div class="post">
+                                <h1><a href="#">A title</a></h1>
+                                <p>Occaecat veniam dolore mollit laboris aliquip ullamco ex magna proident dolor cupidatat velit adipisicing irure. Laborum voluptate nisi quis amet cupidatat elit duis dolor nostrud ipsum exercitation ea qui et. Irure consequat velit duis sunt occaecat ea culpa excepteur. Pariatur officia ut nulla occaecat dolor minim. Eiusmod irure anim consequat commodo dolore magna veniam occaecat. Aliquip sit dolor enim tempor dolore commodo sit in magna. Dolor mollit et tempor nulla Lorem. Labore tempor commodo cupidatat nostrud nostrud proident. Laboris ex amet occaecat sint fugiat aute. Duis laborum deserunt minim incididunt proident. Proident labore aute sunt qui laboris cillum sit adipisicing. Proident officia fugiat consequat eiusmod pariatur eu. Aute amet ut ex culpa qui quis esse nulla et consequat excepteur consequat excepteur anim. Magna anim officia do aliqua aute exercitation nulla. Est aute fugiat commodo cillum. Laborum dolore laboris tempor amet exercitation labore qui et esse officia. Commodo ex sint consectetur eiusmod deserunt incididunt aliqua nostrud deserunt nostrud. Labore reprehenderit exercitation magna ipsum sint officia irure quis amet ullamco mollit duis. Ea adipisicing anim non ut. Excepteur mollit adipisicing amet est irure sit non consectetur ipsum nulla ipsum deserunt. Exercitation tempor exercitation magna do cillum id. Ut dolore laboris aute mollit Lorem labore est aliquip. Occaecat ea labore irure magna elit duis enim. Sint cupidatat excepteur tempor proident. Consectetur culpa ex reprehenderit elit officia anim adipisicing ea ad velit dolore amet sint. Ut cillum cillum excepteur sint labore labore dolore cillum excepteur occaecat. Eiusmod aliqua nulla minim culpa in anim eu nisi do ex. Occaecat magna ea occaecat dolore do excepteur amet fugiat voluptate ad. Pariatur id mollit id ipsum pariatur veniam qui voluptate irure officia. Occaecat sint amet magna culpa reprehenderit ea. Elit proident id velit Lorem dolore ullamco consectetur cillum. Lorem officia tempor esse mollit. Deserunt enim aute enim quis. Culpa et veniam minim adipisicing irure tempor. Nulla do pariatur consequat sit deserunt laboris ipsum excepteur qui adipisicing deserunt. Veniam non aute irure ullamco in ad nostrud est reprehenderit consequat fugiat commodo. Nulla veniam esse commodo tempor occaecat officia exercitation id irure non deserunt exercitation officia. Ad est voluptate non mollit amet exercitation velit minim sint. Veniam ad eu amet dolor cillum consectetur id consequat minim occaecat duis laborum eiusmod veniam. Pariatur in dolor duis ad excepteur. Nostrud dolor occaecat cillum aliquip eu. Labore dolore amet id et. Magna amet irure exercitation elit. Non commodo cupidatat ipsum quis id. Consectetur est elit adipisicing dolor. Consequat eiusmod pariatur dolore dolor anim esse irure quis commodo. Eiusmod in et proident ullamco. Duis exercitation deserunt laborum quis occaecat laborum eu eu. Dolor nulla nostrud irure cillum qui ad velit occaecat velit in amet irure incididunt mollit. Esse magna irure voluptate sint quis qui dolore amet cillum qui commodo dolore.</p>
+                                <p></p>
+                                <p></p>
+                                <div></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post">
+                                <h1><a href="#">A title</a></h1>
+                                <p>Occaecat veniam dolore mollit laboris aliquip ullamco ex magna proident dolor cupidatat velit adipisicing irure. Laborum voluptate nisi quis amet cupidatat elit duis dolor nostrud ipsum exercitation ea qui et. Irure consequat velit duis sunt occaecat ea culpa excepteur. Pariatur officia ut nulla occaecat dolor minim. Eiusmod irure anim consequat commodo dolore magna veniam occaecat. Aliquip sit dolor enim tempor dolore commodo sit in magna. Dolor mollit et tempor nulla Lorem. Labore tempor commodo cupidatat nostrud nostrud proident. Laboris ex amet occaecat sint fugiat aute. Duis laborum deserunt minim incididunt proident. Proident labore aute sunt qui laboris cillum sit adipisicing. Proident officia fugiat consequat eiusmod pariatur eu. Aute amet ut ex culpa qui quis esse nulla et consequat excepteur consequat excepteur anim. Magna anim officia do aliqua aute exercitation nulla. Est aute fugiat commodo cillum. Laborum dolore laboris tempor amet exercitation labore qui et esse officia. Commodo ex sint consectetur eiusmod deserunt incididunt aliqua nostrud deserunt nostrud. Labore reprehenderit exercitation magna ipsum sint officia irure quis amet ullamco mollit duis. Ea adipisicing anim non ut. Excepteur mollit adipisicing amet est irure sit non consectetur ipsum nulla ipsum deserunt. Exercitation tempor exercitation magna do cillum id. Ut dolore laboris aute mollit Lorem labore est aliquip. Occaecat ea labore irure magna elit duis enim. Sint cupidatat excepteur tempor proident. Consectetur culpa ex reprehenderit elit officia anim adipisicing ea ad velit dolore amet sint. Ut cillum cillum excepteur sint labore labore dolore cillum excepteur occaecat. Eiusmod aliqua nulla minim culpa in anim eu nisi do ex. Occaecat magna ea occaecat dolore do excepteur amet fugiat voluptate ad. Pariatur id mollit id ipsum pariatur veniam qui voluptate irure officia. Occaecat sint amet magna culpa reprehenderit ea. Elit proident id velit Lorem dolore ullamco consectetur cillum. Lorem officia tempor esse mollit. Deserunt enim aute enim quis. Culpa et veniam minim adipisicing irure tempor. Nulla do pariatur consequat sit deserunt laboris ipsum excepteur qui adipisicing deserunt. Veniam non aute irure ullamco in ad nostrud est reprehenderit consequat fugiat commodo. Nulla veniam esse commodo tempor occaecat officia exercitation id irure non deserunt exercitation officia. Ad est voluptate non mollit amet exercitation velit minim sint. Veniam ad eu amet dolor cillum consectetur id consequat minim occaecat duis laborum eiusmod veniam. Pariatur in dolor duis ad excepteur. Nostrud dolor occaecat cillum aliquip eu. Labore dolore amet id et. Magna amet irure exercitation elit. Non commodo cupidatat ipsum quis id. Consectetur est elit adipisicing dolor. Consequat eiusmod pariatur dolore dolor anim esse irure quis commodo. Eiusmod in et proident ullamco. Duis exercitation deserunt laborum quis occaecat laborum eu eu. Dolor nulla nostrud irure cillum qui ad velit occaecat velit in amet irure incididunt mollit. Esse magna irure voluptate sint quis qui dolore amet cillum qui commodo dolore.</p>
+                                <p></p>
+                                <p></p>
+                                <div></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post">
+                                <h1></h1>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <div></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="blog-travel" role="tabpanel" aria-labelledby="blog-category-travel">
+                    <ul class="blog">
+                        <li class="post">
+                            <h1><a href="#">Travel</a></h1>
+                            <p>Occaecat veniam dolore mollit laboris aliquip ullamco ex magna proident dolor cupidatat velit adipisicing irure. Laborum voluptate nisi quis amet cupidatat elit duis dolor nostrud ipsum exercitation ea qui et. Irure consequat velit duis sunt occaecat ea culpa excepteur. Pariatur officia ut nulla occaecat dolor minim. Eiusmod irure anim consequat commodo dolore magna veniam occaecat. Aliquip sit dolor enim tempor dolore commodo sit in magna. Dolor mollit et tempor nulla Lorem. Labore tempor commodo cupidatat nostrud nostrud proident. Laboris ex amet occaecat sint fugiat aute. Duis laborum deserunt minim incididunt proident. Proident labore aute sunt qui laboris cillum sit adipisicing. Proident officia fugiat consequat eiusmod pariatur eu. Aute amet ut ex culpa qui quis esse nulla et consequat excepteur consequat excepteur anim. Magna anim officia do aliqua aute exercitation nulla. Est aute fugiat commodo cillum. Laborum dolore laboris tempor amet exercitation labore qui et esse officia. Commodo ex sint consectetur eiusmod deserunt incididunt aliqua nostrud deserunt nostrud. Labore reprehenderit exercitation magna ipsum sint officia irure quis amet ullamco mollit duis. Ea adipisicing anim non ut. Excepteur mollit adipisicing amet est irure sit non consectetur ipsum nulla ipsum deserunt. Exercitation tempor exercitation magna do cillum id. Ut dolore laboris aute mollit Lorem labore est aliquip. Occaecat ea labore irure magna elit duis enim. Sint cupidatat excepteur tempor proident. Consectetur culpa ex reprehenderit elit officia anim adipisicing ea ad velit dolore amet sint. Ut cillum cillum excepteur sint labore labore dolore cillum excepteur occaecat. Eiusmod aliqua nulla minim culpa in anim eu nisi do ex. Occaecat magna ea occaecat dolore do excepteur amet fugiat voluptate ad. Pariatur id mollit id ipsum pariatur veniam qui voluptate irure officia. Occaecat sint amet magna culpa reprehenderit ea. Elit proident id velit Lorem dolore ullamco consectetur cillum. Lorem officia tempor esse mollit. Deserunt enim aute enim quis. Culpa et veniam minim adipisicing irure tempor. Nulla do pariatur consequat sit deserunt laboris ipsum excepteur qui adipisicing deserunt. Veniam non aute irure ullamco in ad nostrud est reprehenderit consequat fugiat commodo. Nulla veniam esse commodo tempor occaecat officia exercitation id irure non deserunt exercitation officia. Ad est voluptate non mollit amet exercitation velit minim sint. Veniam ad eu amet dolor cillum consectetur id consequat minim occaecat duis laborum eiusmod veniam. Pariatur in dolor duis ad excepteur. Nostrud dolor occaecat cillum aliquip eu. Labore dolore amet id et. Magna amet irure exercitation elit. Non commodo cupidatat ipsum quis id. Consectetur est elit adipisicing dolor. Consequat eiusmod pariatur dolore dolor anim esse irure quis commodo. Eiusmod in et proident ullamco. Duis exercitation deserunt laborum quis occaecat laborum eu eu. Dolor nulla nostrud irure cillum qui ad velit occaecat velit in amet irure incididunt mollit. Esse magna irure voluptate sint quis qui dolore amet cillum qui commodo dolore.</p>
+                            <p></p>
+                            <p></p>
+                            <div></div>
+                        </li>
+                        <li>
+                            <div class="post">
+                                <h1><a href="#">A title</a></h1>
+                                <p>Occaecat veniam dolore mollit laboris aliquip ullamco ex magna proident dolor cupidatat velit adipisicing irure. Laborum voluptate nisi quis amet cupidatat elit duis dolor nostrud ipsum exercitation ea qui et. Irure consequat velit duis sunt occaecat ea culpa excepteur. Pariatur officia ut nulla occaecat dolor minim. Eiusmod irure anim consequat commodo dolore magna veniam occaecat. Aliquip sit dolor enim tempor dolore commodo sit in magna. Dolor mollit et tempor nulla Lorem. Labore tempor commodo cupidatat nostrud nostrud proident. Laboris ex amet occaecat sint fugiat aute. Duis laborum deserunt minim incididunt proident. Proident labore aute sunt qui laboris cillum sit adipisicing. Proident officia fugiat consequat eiusmod pariatur eu. Aute amet ut ex culpa qui quis esse nulla et consequat excepteur consequat excepteur anim. Magna anim officia do aliqua aute exercitation nulla. Est aute fugiat commodo cillum. Laborum dolore laboris tempor amet exercitation labore qui et esse officia. Commodo ex sint consectetur eiusmod deserunt incididunt aliqua nostrud deserunt nostrud. Labore reprehenderit exercitation magna ipsum sint officia irure quis amet ullamco mollit duis. Ea adipisicing anim non ut. Excepteur mollit adipisicing amet est irure sit non consectetur ipsum nulla ipsum deserunt. Exercitation tempor exercitation magna do cillum id. Ut dolore laboris aute mollit Lorem labore est aliquip. Occaecat ea labore irure magna elit duis enim. Sint cupidatat excepteur tempor proident. Consectetur culpa ex reprehenderit elit officia anim adipisicing ea ad velit dolore amet sint. Ut cillum cillum excepteur sint labore labore dolore cillum excepteur occaecat. Eiusmod aliqua nulla minim culpa in anim eu nisi do ex. Occaecat magna ea occaecat dolore do excepteur amet fugiat voluptate ad. Pariatur id mollit id ipsum pariatur veniam qui voluptate irure officia. Occaecat sint amet magna culpa reprehenderit ea. Elit proident id velit Lorem dolore ullamco consectetur cillum. Lorem officia tempor esse mollit. Deserunt enim aute enim quis. Culpa et veniam minim adipisicing irure tempor. Nulla do pariatur consequat sit deserunt laboris ipsum excepteur qui adipisicing deserunt. Veniam non aute irure ullamco in ad nostrud est reprehenderit consequat fugiat commodo. Nulla veniam esse commodo tempor occaecat officia exercitation id irure non deserunt exercitation officia. Ad est voluptate non mollit amet exercitation velit minim sint. Veniam ad eu amet dolor cillum consectetur id consequat minim occaecat duis laborum eiusmod veniam. Pariatur in dolor duis ad excepteur. Nostrud dolor occaecat cillum aliquip eu. Labore dolore amet id et. Magna amet irure exercitation elit. Non commodo cupidatat ipsum quis id. Consectetur est elit adipisicing dolor. Consequat eiusmod pariatur dolore dolor anim esse irure quis commodo. Eiusmod in et proident ullamco. Duis exercitation deserunt laborum quis occaecat laborum eu eu. Dolor nulla nostrud irure cillum qui ad velit occaecat velit in amet irure incididunt mollit. Esse magna irure voluptate sint quis qui dolore amet cillum qui commodo dolore.</p>
+                                <p></p>
+                                <p></p>
+                                <div></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post">
+                                <h1><a href="#">A title</a></h1>
+                                <p>Occaecat veniam dolore mollit laboris aliquip ullamco ex magna proident dolor cupidatat velit adipisicing irure. Laborum voluptate nisi quis amet cupidatat elit duis dolor nostrud ipsum exercitation ea qui et. Irure consequat velit duis sunt occaecat ea culpa excepteur. Pariatur officia ut nulla occaecat dolor minim. Eiusmod irure anim consequat commodo dolore magna veniam occaecat. Aliquip sit dolor enim tempor dolore commodo sit in magna. Dolor mollit et tempor nulla Lorem. Labore tempor commodo cupidatat nostrud nostrud proident. Laboris ex amet occaecat sint fugiat aute. Duis laborum deserunt minim incididunt proident. Proident labore aute sunt qui laboris cillum sit adipisicing. Proident officia fugiat consequat eiusmod pariatur eu. Aute amet ut ex culpa qui quis esse nulla et consequat excepteur consequat excepteur anim. Magna anim officia do aliqua aute exercitation nulla. Est aute fugiat commodo cillum. Laborum dolore laboris tempor amet exercitation labore qui et esse officia. Commodo ex sint consectetur eiusmod deserunt incididunt aliqua nostrud deserunt nostrud. Labore reprehenderit exercitation magna ipsum sint officia irure quis amet ullamco mollit duis. Ea adipisicing anim non ut. Excepteur mollit adipisicing amet est irure sit non consectetur ipsum nulla ipsum deserunt. Exercitation tempor exercitation magna do cillum id. Ut dolore laboris aute mollit Lorem labore est aliquip. Occaecat ea labore irure magna elit duis enim. Sint cupidatat excepteur tempor proident. Consectetur culpa ex reprehenderit elit officia anim adipisicing ea ad velit dolore amet sint. Ut cillum cillum excepteur sint labore labore dolore cillum excepteur occaecat. Eiusmod aliqua nulla minim culpa in anim eu nisi do ex. Occaecat magna ea occaecat dolore do excepteur amet fugiat voluptate ad. Pariatur id mollit id ipsum pariatur veniam qui voluptate irure officia. Occaecat sint amet magna culpa reprehenderit ea. Elit proident id velit Lorem dolore ullamco consectetur cillum. Lorem officia tempor esse mollit. Deserunt enim aute enim quis. Culpa et veniam minim adipisicing irure tempor. Nulla do pariatur consequat sit deserunt laboris ipsum excepteur qui adipisicing deserunt. Veniam non aute irure ullamco in ad nostrud est reprehenderit consequat fugiat commodo. Nulla veniam esse commodo tempor occaecat officia exercitation id irure non deserunt exercitation officia. Ad est voluptate non mollit amet exercitation velit minim sint. Veniam ad eu amet dolor cillum consectetur id consequat minim occaecat duis laborum eiusmod veniam. Pariatur in dolor duis ad excepteur. Nostrud dolor occaecat cillum aliquip eu. Labore dolore amet id et. Magna amet irure exercitation elit. Non commodo cupidatat ipsum quis id. Consectetur est elit adipisicing dolor. Consequat eiusmod pariatur dolore dolor anim esse irure quis commodo. Eiusmod in et proident ullamco. Duis exercitation deserunt laborum quis occaecat laborum eu eu. Dolor nulla nostrud irure cillum qui ad velit occaecat velit in amet irure incididunt mollit. Esse magna irure voluptate sint quis qui dolore amet cillum qui commodo dolore.</p>
+                                <p></p>
+                                <p></p>
+                                <div></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post">
+                                <h1></h1>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <div></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane" id="blog-all" role="tabpanel" aria-labelledby="blog-all-categories">
+                    <ul class="blog">
+                        <li class="post">
+                            <h1><a href="#">All</a></h1>
+                            <p>Occaecat veniam dolore mollit laboris aliquip ullamco ex magna proident dolor cupidatat velit adipisicing irure. Laborum voluptate nisi quis amet cupidatat elit duis dolor nostrud ipsum exercitation ea qui et. Irure consequat velit duis sunt occaecat ea culpa excepteur. Pariatur officia ut nulla occaecat dolor minim. Eiusmod irure anim consequat commodo dolore magna veniam occaecat. Aliquip sit dolor enim tempor dolore commodo sit in magna. Dolor mollit et tempor nulla Lorem. Labore tempor commodo cupidatat nostrud nostrud proident. Laboris ex amet occaecat sint fugiat aute. Duis laborum deserunt minim incididunt proident. Proident labore aute sunt qui laboris cillum sit adipisicing. Proident officia fugiat consequat eiusmod pariatur eu. Aute amet ut ex culpa qui quis esse nulla et consequat excepteur consequat excepteur anim. Magna anim officia do aliqua aute exercitation nulla. Est aute fugiat commodo cillum. Laborum dolore laboris tempor amet exercitation labore qui et esse officia. Commodo ex sint consectetur eiusmod deserunt incididunt aliqua nostrud deserunt nostrud. Labore reprehenderit exercitation magna ipsum sint officia irure quis amet ullamco mollit duis. Ea adipisicing anim non ut. Excepteur mollit adipisicing amet est irure sit non consectetur ipsum nulla ipsum deserunt. Exercitation tempor exercitation magna do cillum id. Ut dolore laboris aute mollit Lorem labore est aliquip. Occaecat ea labore irure magna elit duis enim. Sint cupidatat excepteur tempor proident. Consectetur culpa ex reprehenderit elit officia anim adipisicing ea ad velit dolore amet sint. Ut cillum cillum excepteur sint labore labore dolore cillum excepteur occaecat. Eiusmod aliqua nulla minim culpa in anim eu nisi do ex. Occaecat magna ea occaecat dolore do excepteur amet fugiat voluptate ad. Pariatur id mollit id ipsum pariatur veniam qui voluptate irure officia. Occaecat sint amet magna culpa reprehenderit ea. Elit proident id velit Lorem dolore ullamco consectetur cillum. Lorem officia tempor esse mollit. Deserunt enim aute enim quis. Culpa et veniam minim adipisicing irure tempor. Nulla do pariatur consequat sit deserunt laboris ipsum excepteur qui adipisicing deserunt. Veniam non aute irure ullamco in ad nostrud est reprehenderit consequat fugiat commodo. Nulla veniam esse commodo tempor occaecat officia exercitation id irure non deserunt exercitation officia. Ad est voluptate non mollit amet exercitation velit minim sint. Veniam ad eu amet dolor cillum consectetur id consequat minim occaecat duis laborum eiusmod veniam. Pariatur in dolor duis ad excepteur. Nostrud dolor occaecat cillum aliquip eu. Labore dolore amet id et. Magna amet irure exercitation elit. Non commodo cupidatat ipsum quis id. Consectetur est elit adipisicing dolor. Consequat eiusmod pariatur dolore dolor anim esse irure quis commodo. Eiusmod in et proident ullamco. Duis exercitation deserunt laborum quis occaecat laborum eu eu. Dolor nulla nostrud irure cillum qui ad velit occaecat velit in amet irure incididunt mollit. Esse magna irure voluptate sint quis qui dolore amet cillum qui commodo dolore.</p>
+                            <p></p>
+                            <p></p>
+                            <div></div>
+                        </li>
+                        <li>
+                            <div class="post">
+                                <h1><a href="#">A title</a></h1>
+                                <p>Occaecat veniam dolore mollit laboris aliquip ullamco ex magna proident dolor cupidatat velit adipisicing irure. Laborum voluptate nisi quis amet cupidatat elit duis dolor nostrud ipsum exercitation ea qui et. Irure consequat velit duis sunt occaecat ea culpa excepteur. Pariatur officia ut nulla occaecat dolor minim. Eiusmod irure anim consequat commodo dolore magna veniam occaecat. Aliquip sit dolor enim tempor dolore commodo sit in magna. Dolor mollit et tempor nulla Lorem. Labore tempor commodo cupidatat nostrud nostrud proident. Laboris ex amet occaecat sint fugiat aute. Duis laborum deserunt minim incididunt proident. Proident labore aute sunt qui laboris cillum sit adipisicing. Proident officia fugiat consequat eiusmod pariatur eu. Aute amet ut ex culpa qui quis esse nulla et consequat excepteur consequat excepteur anim. Magna anim officia do aliqua aute exercitation nulla. Est aute fugiat commodo cillum. Laborum dolore laboris tempor amet exercitation labore qui et esse officia. Commodo ex sint consectetur eiusmod deserunt incididunt aliqua nostrud deserunt nostrud. Labore reprehenderit exercitation magna ipsum sint officia irure quis amet ullamco mollit duis. Ea adipisicing anim non ut. Excepteur mollit adipisicing amet est irure sit non consectetur ipsum nulla ipsum deserunt. Exercitation tempor exercitation magna do cillum id. Ut dolore laboris aute mollit Lorem labore est aliquip. Occaecat ea labore irure magna elit duis enim. Sint cupidatat excepteur tempor proident. Consectetur culpa ex reprehenderit elit officia anim adipisicing ea ad velit dolore amet sint. Ut cillum cillum excepteur sint labore labore dolore cillum excepteur occaecat. Eiusmod aliqua nulla minim culpa in anim eu nisi do ex. Occaecat magna ea occaecat dolore do excepteur amet fugiat voluptate ad. Pariatur id mollit id ipsum pariatur veniam qui voluptate irure officia. Occaecat sint amet magna culpa reprehenderit ea. Elit proident id velit Lorem dolore ullamco consectetur cillum. Lorem officia tempor esse mollit. Deserunt enim aute enim quis. Culpa et veniam minim adipisicing irure tempor. Nulla do pariatur consequat sit deserunt laboris ipsum excepteur qui adipisicing deserunt. Veniam non aute irure ullamco in ad nostrud est reprehenderit consequat fugiat commodo. Nulla veniam esse commodo tempor occaecat officia exercitation id irure non deserunt exercitation officia. Ad est voluptate non mollit amet exercitation velit minim sint. Veniam ad eu amet dolor cillum consectetur id consequat minim occaecat duis laborum eiusmod veniam. Pariatur in dolor duis ad excepteur. Nostrud dolor occaecat cillum aliquip eu. Labore dolore amet id et. Magna amet irure exercitation elit. Non commodo cupidatat ipsum quis id. Consectetur est elit adipisicing dolor. Consequat eiusmod pariatur dolore dolor anim esse irure quis commodo. Eiusmod in et proident ullamco. Duis exercitation deserunt laborum quis occaecat laborum eu eu. Dolor nulla nostrud irure cillum qui ad velit occaecat velit in amet irure incididunt mollit. Esse magna irure voluptate sint quis qui dolore amet cillum qui commodo dolore.</p>
+                                <p></p>
+                                <p></p>
+                                <div></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post">
+                                <h1><a href="#">A title</a></h1>
+                                <p>Occaecat veniam dolore mollit laboris aliquip ullamco ex magna proident dolor cupidatat velit adipisicing irure. Laborum voluptate nisi quis amet cupidatat elit duis dolor nostrud ipsum exercitation ea qui et. Irure consequat velit duis sunt occaecat ea culpa excepteur. Pariatur officia ut nulla occaecat dolor minim. Eiusmod irure anim consequat commodo dolore magna veniam occaecat. Aliquip sit dolor enim tempor dolore commodo sit in magna. Dolor mollit et tempor nulla Lorem. Labore tempor commodo cupidatat nostrud nostrud proident. Laboris ex amet occaecat sint fugiat aute. Duis laborum deserunt minim incididunt proident. Proident labore aute sunt qui laboris cillum sit adipisicing. Proident officia fugiat consequat eiusmod pariatur eu. Aute amet ut ex culpa qui quis esse nulla et consequat excepteur consequat excepteur anim. Magna anim officia do aliqua aute exercitation nulla. Est aute fugiat commodo cillum. Laborum dolore laboris tempor amet exercitation labore qui et esse officia. Commodo ex sint consectetur eiusmod deserunt incididunt aliqua nostrud deserunt nostrud. Labore reprehenderit exercitation magna ipsum sint officia irure quis amet ullamco mollit duis. Ea adipisicing anim non ut. Excepteur mollit adipisicing amet est irure sit non consectetur ipsum nulla ipsum deserunt. Exercitation tempor exercitation magna do cillum id. Ut dolore laboris aute mollit Lorem labore est aliquip. Occaecat ea labore irure magna elit duis enim. Sint cupidatat excepteur tempor proident. Consectetur culpa ex reprehenderit elit officia anim adipisicing ea ad velit dolore amet sint. Ut cillum cillum excepteur sint labore labore dolore cillum excepteur occaecat. Eiusmod aliqua nulla minim culpa in anim eu nisi do ex. Occaecat magna ea occaecat dolore do excepteur amet fugiat voluptate ad. Pariatur id mollit id ipsum pariatur veniam qui voluptate irure officia. Occaecat sint amet magna culpa reprehenderit ea. Elit proident id velit Lorem dolore ullamco consectetur cillum. Lorem officia tempor esse mollit. Deserunt enim aute enim quis. Culpa et veniam minim adipisicing irure tempor. Nulla do pariatur consequat sit deserunt laboris ipsum excepteur qui adipisicing deserunt. Veniam non aute irure ullamco in ad nostrud est reprehenderit consequat fugiat commodo. Nulla veniam esse commodo tempor occaecat officia exercitation id irure non deserunt exercitation officia. Ad est voluptate non mollit amet exercitation velit minim sint. Veniam ad eu amet dolor cillum consectetur id consequat minim occaecat duis laborum eiusmod veniam. Pariatur in dolor duis ad excepteur. Nostrud dolor occaecat cillum aliquip eu. Labore dolore amet id et. Magna amet irure exercitation elit. Non commodo cupidatat ipsum quis id. Consectetur est elit adipisicing dolor. Consequat eiusmod pariatur dolore dolor anim esse irure quis commodo. Eiusmod in et proident ullamco. Duis exercitation deserunt laborum quis occaecat laborum eu eu. Dolor nulla nostrud irure cillum qui ad velit occaecat velit in amet irure incididunt mollit. Esse magna irure voluptate sint quis qui dolore amet cillum qui commodo dolore.</p>
+                                <p></p>
+                                <p></p>
+                                <div></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="post">
+                                <h1></h1>
+                                <p></p>
+                                <p></p>
+                                <p></p>
+                                <div></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="panel text-center">
-          <!-- MDL Progress Bar with Indeterminate Progress -->
-          <!--<div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>-->
-          <!--<a class="twitter-timeline" href="https://twitter.com/BitBruce_?ref_src=twsrc%5Etfw">Tweets by BitBruce_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
-          <a class="twitter-timeline" data-height="1000" data-theme="dark" data-link-color="#1b5e20" href="https://twitter.com/BitBruce_?ref_src=twsrc%5Etfw">Tweets by BitBruce_</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-      </div>
-
     </div>
-  </div>
 
-  <% include ../partials/footer.ejs %>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $('.carousel').carousel({
+        interval: 1400
+      })
+    </script>
+
+    <% include ../partials/footer.ejs %>
 
 </body>
 </html>

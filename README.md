@@ -3,6 +3,9 @@
 1. `npm i`
 1. `heroku local` || `gulp && node index.js`
 
+## random note
+- 32x32 and 64x64 of the lavitz rain image is unrecognizable by google image search, so host those assets and get them indexed?
+
 ## Design 1 Quick
 material design
 
@@ -24,3 +27,15 @@ left column profile, links
 * https://getbootstrap.com/docs/4.0/components/tooltips/
 
 ## Design 2
+keep left column for profile + links
+
+right 2/3 column for blog
+
+tab nav on blog header - tech, travel, other
+
+posts are ejs, do compiled markdown next
+
+post titles link to individual post (that page has a link back to the main)
+
+## Design 3
+blog is embedded steemit
