@@ -44,6 +44,17 @@ a {
   &:hover {
     color: $light;
   }
+
+  &:active, &.active {
+    color: $light;
+    border: $light solid 2px;
+  }
+}
+
+nav > a {
+  width: 25%;
+  align-self: center;
+  border-radius: 8px;
 }
 
 iframe {
@@ -60,7 +71,7 @@ ul.blog {
 
 .main {
   position:relative;
-  top:4em;
+  top: 4em;
   min-width: 220px;
 }
 

@@ -16,5 +16,5 @@ gulp.task('sass', function () {
     .pipe(sass().on('error', sass.logError))
     .pipe(cssnano())
     .pipe(rename('main.min.css'))
-    .pipe(gulp.dest('./public/stylesheets'));
+    .pipe(gulp.dest('./public/css'));
 });
