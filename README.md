@@ -26,6 +26,9 @@ left column profile, links
 * https://hackerthemes.com/
 * https://getbootstrap.com/docs/4.0/components/tooltips/
 
+## Design 1.5 (Current)
+- not even related to previous or following versions, gutting everything for a simple centered info pane
+
 ## Design 2
 keep left column for profile + links
 
