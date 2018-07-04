@@ -31,9 +31,9 @@ keep left column for profile + links
 
 right 2/3 column for blog
 
-tab nav on blog header - tech, travel, other
+tab nav on blog header - tech, travel, other, all
 
-posts are ejs, do compiled markdown next
+posts are ejs (??!!), do compiled markdown next
 
 post titles link to individual post (that page has a link back to the main)
 
